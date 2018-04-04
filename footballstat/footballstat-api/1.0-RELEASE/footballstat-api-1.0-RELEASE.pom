@@ -10,7 +10,7 @@
 
     <properties>
         <kotlin.version>1.2.31</kotlin.version>
-        <project.build.directory>K:\projects\footballstatapi\target\site</project.build.directory>
+        <project.build.directory>K:\projects\footballstatapi\target</project.build.directory>
         <project.version>1.0-RELEASE</project.version>
         <github.global.server>github</github.global.server>
     </properties>
@@ -68,8 +68,7 @@
                     <repositoryName>footballstat-api</repositoryName>
                     <repositoryOwner>kartman3103</repositoryOwner>
                     <server>github</server>
-                    <path>K:\projects\footballstatapi\target</path>
-                    <outputDirectory>K:\projects\footballstatapi\target</outputDirectory>
+                    <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>
