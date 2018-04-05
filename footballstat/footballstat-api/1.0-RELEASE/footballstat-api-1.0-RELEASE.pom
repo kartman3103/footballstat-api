@@ -10,7 +10,7 @@
 
     <properties>
         <kotlin.version>1.2.31</kotlin.version>
-        <project.build.directory>K:\projects\footballstatapi\target</project.build.directory>
+        <project.build.directory>C:\dev\footballstat-api\target</project.build.directory>
         <project.version>1.0-RELEASE</project.version>
         <github.global.server>github</github.global.server>
     </properties>
