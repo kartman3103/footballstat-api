@@ -1,3 +1,8 @@
 package model.football
 
-data class LeagueInfo(val Id : String, val Name : String, val ToursPlayed : Int, var ShortName : String, val Year : Int)
+data class LeagueInfo(
+        val id : String,
+        val name : String,
+        val toursPlayed : Int,
+        var shortName : String,
+        val year : Int)
