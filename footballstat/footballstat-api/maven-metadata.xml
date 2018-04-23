@@ -3,10 +3,10 @@
   <groupId>footballstat</groupId>
   <artifactId>footballstat-api</artifactId>
   <versioning>
-    <release>1.0-RELEASE</release>
+    <release>1.2-RELEASE</release>
     <versions>
-      <version>1.0-RELEASE</version>
+      <version>1.2-RELEASE</version>
     </versions>
-    <lastUpdated>20180415193537</lastUpdated>
+    <lastUpdated>20180423174819</lastUpdated>
   </versioning>
 </metadata>
