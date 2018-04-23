@@ -1,12 +1,12 @@
 package model.football
 
 data class TournamentStatistic(
-        val position : Int,
-        val playedGames : Int,
-        val points : Int,
-        val goalsScored : Int,
-        val goalsAgainst : Int,
-        val goalsDifference : Int,
-        val wins : Int,
-        val draws : Int,
-        val losses : Int)
+        var position : Int,
+        var playedGames : Int,
+        var points : Int,
+        var goalsScored : Int,
+        var goalsAgainst : Int,
+        var goalsDifference : Int,
+        var wins : Int,
+        var draws : Int,
+        var losses : Int)

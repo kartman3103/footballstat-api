@@ -1,10 +1,10 @@
 package model.football
 
 data class League(
-        val id : String,
-        val matchDay : Int,
-        val name : String,
-        val year : Int,
-        val toursPlayed : Int,
-        val shortName : String,
-        val teams : List<Team>)
+        var id : String,
+        var matchDay : Int,
+        var name : String,
+        var year : Int,
+        var toursPlayed : Int,
+        var shortName : String,
+        var teams : List<Team>)
